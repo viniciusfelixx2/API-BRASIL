@@ -21,9 +21,9 @@ O Brasil Explorer é uma aplicação web que permite consultar informações bra
 
 🛠️ Tecnologias
 
-HTML5
-CSS3
-JavaScript (Vanilla JS)
+HTML5, 
+CSS3, 
+JavaScript (Vanilla JS), 
 BrasilAPI
 
 👉 Não precisa instalar nada!
