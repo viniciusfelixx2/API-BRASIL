@@ -18,7 +18,9 @@ O Brasil Explorer é uma aplicação web que permite consultar informações bra
 
 👉 Acesse o projeto online:
 🔗 https://viniciusfelixx2.github.io/API-BRASIL/
+
 🛠️ Tecnologias
+
 HTML5
 CSS3
 JavaScript (Vanilla JS)
