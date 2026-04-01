@@ -17,29 +17,11 @@ O Brasil Explorer é uma aplicação web que permite consultar informações bra
 🖥️ Demonstração
 
 👉 Acesse o projeto online:
-🔗 [https://viniciusfelix2.github.io/API-BRASIL/
-](https://viniciusfelixx2.github.io/API-BRASIL/)
+🔗 https://viniciusfelixx2.github.io/API-BRASIL/
 🛠️ Tecnologias
 HTML5
 CSS3
 JavaScript (Vanilla JS)
 BrasilAPI
-📁 Estrutura do projeto
-API-BRASIL/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── assets/
-│   └── logo.png
-└── README.md
-⚙️ Como rodar o projeto
-git clone https://github.com/viniciusfelix2/API-BRASIL.git
-cd API-BRASIL
-
-Depois, abra:
-
-index.html
 
 👉 Não precisa instalar nada!
