@@ -5,10 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Brasil Explorer - BrasilAPI</title>
 
-  <!-- CSS (correto para sua pasta css/) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8cx9nEnS0VKVF1+W+d3g9RBG8+7rhlg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css" />
-
-  <!-- Favicon (opcional, só funciona se existir em assets/) -->
   <link rel="icon" type="image/png" href="./assets/logo.png">
 </head>
 
@@ -35,9 +33,18 @@
         </div>
 
         <div class="full actions">
-          <button type="submit" class="btn-primary">Buscar</button>
-          <button type="button" id="clearResults" class="btn-secondary">Limpar resultado atual</button>
-          <button type="button" id="clearHistory" class="btn-secondary">Limpar histórico</button>
+          <button type="submit" class="btn-primary">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+            <span>Buscar</span>
+          </button>
+          <button type="button" id="clearResults" class="btn-secondary">
+            <i class="fa-solid fa-eraser" aria-hidden="true"></i>
+            <span>Limpar resultado atual</span>
+          </button>
+          <button type="button" id="clearHistory" class="btn-secondary">
+            <i class="fa-solid fa-trash-can" aria-hidden="true"></i>
+            <span>Limpar histórico</span>
+          </button>
         </div>
       </form>
 
@@ -52,7 +59,7 @@
     </div>
   </div>
 
-  <!-- JS (correto para sua pasta js/) -->
   <script src="./js/script.js"></script>
 </body>
 </html>
+
