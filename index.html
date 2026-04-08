@@ -19,13 +19,23 @@
 
       <form id="searchForm" class="grid">
         <div>
-          <label for="tipoConsulta">Tipo de consulta</label>
-          <select id="tipoConsulta" required>
-            <option value="cep">🚚 CEP</option>
-            <option value="cnpj">🏭 CNPJ</option>
-            <option value="bancos">💰 Bancos</option>
-          </select>
-        </div>
+  <label for="tipoConsulta">Tipo de consulta</label>
+
+  <div class="custom-select" id="customSelect">
+    <button type="button" class="custom-select-trigger" id="selectTrigger">
+      <span id="selectedText">📮 CEP</span>
+      <span class="arrow">▾</span>
+    </button>
+
+    <div class="custom-options" id="customOptions">
+      <div class="custom-option selected" data-value="cep">📮 CEP</div>
+      <div class="custom-option" data-value="cnpj">🏢 CNPJ</div>
+      <div class="custom-option" data-value="bancos">🏦 Bancos</div>
+    </div>
+  </div>
+
+  <input type="hidden" id="tipoConsulta" value="cep" required>
+</div>
 
         <div>
           <label for="inputBusca">Digite o valor</label>
