@@ -173,4 +173,66 @@ tbody tr:nth-child(even) { background: #f9fafb; }
     color: #374151;
     margin-bottom: 4px;
   }
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+
+.custom-select-trigger {
+  width: 100%;
+  height: 52px;
+  border: 2px solid #22c55e;
+  border-radius: 16px;
+  background: #fff;
+  padding: 0 16px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  text-align: left;
+}
+
+.custom-select-trigger:focus {
+  outline: none;
+}
+
+.custom-select-trigger .arrow {
+  font-size: 1rem;
+}
+
+.custom-options {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: none;
+  z-index: 1000;
+}
+
+.custom-options.open {
+  display: block;
+}
+
+.custom-option {
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.custom-option:hover {
+  background: #f3f4f6;
+}
+
+.custom-option.selected {
+  background: #e8f9ee;
+  font-weight: 600;
+}
+
+
 }
